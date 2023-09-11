@@ -1,0 +1,53 @@
+/* CSS for .container in read.php */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Add CSS for the login and register buttons */
+.container .row.login-register-buttons {
+    margin-top: 20px;
+}
+
+.container .row.login-register-buttons .btn {
+    margin-right: 10px;
+}
+
+/* CSS for .box in read.php */
+.box {
+    max-width: 900px; /* Adjust the max-width to your desired value */
+    width: 100%;
+}
+
+/* CSS for .container table in read.php */
+.container table {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* CSS for the table header row in read.php */
+.container table tbody td {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* CSS for .link-right in read.php */
+.link-right {
+    display: flex;
+    justify-content: flex-end;
+}
